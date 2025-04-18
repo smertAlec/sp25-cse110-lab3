@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-Meeting Minutes Site: https://smertalec.github.io/Lab2_Starter/
+https://smertalec.github.io/sp25-cse110-lab3/
