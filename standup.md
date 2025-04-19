@@ -12,5 +12,14 @@
 
 | Name | Priorities | Progress | Problems |
 | --- | --- | --- | --- |
-| _name_ | _eg: Brainstorm ideas_ | _eg: Implemented certain feature_ | _eg: Certain feature isn't working as expected_ |
-| | | |
+| _eg: John Smith_ | _eg: Brainstorm ideas_ | _eg: Implemented certain feature_ | _eg: Certain feature isn't working as expected_ |
+| ‎
+| ‎ 
+| ‎ 
+| ‎ 
+| ‎ 
+| ‎ 
+| ‎ 
+| ‎ 
+| ‎ 
+| ‎ 
