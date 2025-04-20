@@ -1,0 +1,25 @@
+/*Name colors*/
+
+#mikey{
+    color: rgb(255, 0, 0);
+}
+
+#turner{
+    color: #2c36c1;
+}
+
+#esmee{
+    color: hsl(286, 100%, 50%);
+}
+
+#ned{
+    color: darkorange;
+}
+
+#leanne{
+    color: color(from rgb(33, 159, 33) xyz x y z);
+}
+
+#lilliana{
+    color: color-mix(in srgb, red, pink);
+}
