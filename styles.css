@@ -16,6 +16,10 @@
     color: darkorange;
 }
 
+#lucius{
+    color: black;
+}
+
 #leanne{
     color: color(from rgb(33, 159, 33) xyz x y z);
 }
@@ -28,10 +32,15 @@
 
 :root{
     --main-bg-color: rgb(141, 102, 66);
+    --text-color: rgb(79, 49, 25);
 }
 
 body{
     background-color: var(--main-bg-color);
+}
+
+.section-titles{
+    color: var(--text-color);
 }
 
 h1{
@@ -46,36 +55,47 @@ h2{
 
 h3{
     font-size: 30px;
+    color: var(--text-color);
 }
 
 ul{
     font-size: 12pt;
+    color: var(--text-color);
 }
 
 ol{
     font-size: 1pc;
+    color: var(--text-color);
 }
 
 li{
     font-size: 125%;
+    color: var(--text-color);
 }
 
 p{
     font-size: 1.25em;
+    color: var(--text-color);
 }
 
-img{
+#split-diagram{
     border-style: ridge;
     border-color: rgb(98, 59, 27);
     border-width: 12px;
     border-radius: 20px;
+    width: 50%;
+    height: 50%;
 }
 
-video{
+#monkey-video{
     border-style: ridge;
     border-color: rgb(98, 59, 27);
     border-width: 12px;
     border-radius: 20px;
+    max-width: 1000%;
+    min-width: 0%;
+    width: 50%;
+    height: 50%;
 }
 
 hr{
@@ -85,6 +105,9 @@ hr{
 }
 header{
     margin: 10vh;
+    text-align: center;
+    color: rgb(54, 30, 10);
+    display: block;
 }
 
 #Attendance{
@@ -101,7 +124,7 @@ header{
     border-radius: 20px;
 }
 
-#Meeting-Specifics, #Meeting-Content, #Comments-Questions-Concerns, #Post-Meeting-Survey, nav{
+#Meeting-Specifics, #Meeting-Content, #Comments-Questions-Concerns, nav{
     padding: 10vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -110,5 +133,9 @@ header{
     border-color: gold;
     border-width: 12px;
     border-radius: 20px;
+}
+
+#Post-Meeting-Survey{
+    display: none;
 }
 
