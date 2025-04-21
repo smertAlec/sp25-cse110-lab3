@@ -23,3 +23,41 @@
 #lilliana{
     color: color-mix(in srgb, red, pink);
 }
+
+:root{
+    --main-bg-color: rgb(211, 211, 211);
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+h1{
+    font-size: 50px;
+    height: 5vmin;
+}
+
+h2{
+    font-size: 40px;
+    height: 3vh;
+}
+
+h3{
+    font-size: 30px;
+}
+
+ul{
+    font-size: 12pt;
+}
+
+ol{
+    font-size: 1pc;
+}
+
+li{
+    font-size: 125%;
+}
+
+p{
+    font-size: 1.25em;
+}
