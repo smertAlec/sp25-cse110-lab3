@@ -32,7 +32,8 @@
 
 :root{
     --main-bg-color: rgb(141, 102, 66);
-    --text-color: rgb(79, 49, 25);
+    --main-text-color: rgb(79, 49, 25);
+    --main-border-color: gold;
 }
 
 body{
@@ -40,7 +41,7 @@ body{
 }
 
 .section-titles{
-    color: var(--text-color);
+    color: var(--main-text-color);
     text-decoration: underline;
 }
 
@@ -60,27 +61,27 @@ h2:active{
 
 h3{
     font-size: 30px;
-    color: var(--text-color);
+    color: var(--main-text-color);
 }
 
 ul{
     font-size: 12pt;
-    color: var(--text-color);
+    color: var(--main-text-color);
 }
 
 ol{
     font-size: 1pc;
-    color: var(--text-color);
+    color: var(--main-text-color);
 }
 
 li{
     font-size: 125%;
-    color: var(--text-color);
+    color: var(--main-text-color);
 }
 
 p{
     font-size: 1.25em;
-    color: var(--text-color);
+    color: var(--main-text-color);
 }
 
 hr{
@@ -102,7 +103,7 @@ nav{
     margin-bottom: 5vh;
     background-color: rgb(215, 185, 149);
     border-style: ridge;
-    border-color: gold;
+    border-color: var(--main-border-color);
     border-width: 12px;
     border-radius: 20px;
     display: flex;
@@ -166,7 +167,7 @@ nav{
     margin-bottom: 5vh;
     background-color: rgb(215, 185, 149);
     border-style: ridge;
-    border-color: gold;
+    border-color: var(--main-border-color);
     border-width: 12px;
     border-radius: 20px;
     display: flex;
@@ -174,18 +175,42 @@ nav{
     align-items: center;
 }
 
-#Meeting-Specifics, #Meeting-Content, #Comments-Questions-Concerns{
+#Meeting-Specifics, #Meeting-Content{
     padding: 10vh;
     margin-top: 5vh;
     margin-bottom: 5vh;
     background-color: rgb(215, 185, 149);
     border-style: ridge;
-    border-color: gold;
+    border-color: var(--main-border-color);
     border-width: 12px;
     border-radius: 20px;
 }
 
+#Comments-Questions-Concerns{
+    padding: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: rgb(215, 185, 149);
+    border-style: ridge;
+    border-color: var(--main-border-color);
+    border-width: 12px;
+    border-radius: 20px;
+    display: grid;
+    row-gap: 40px;
+}
+
 #Post-Meeting-Survey{
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    :root{
+        --main-border-color: rgb(98, 59, 27);
+    }
+}
+
+*{
+    font-family: "Happy Monkey", system-ui;
+    font-style: normal;
 }
 
