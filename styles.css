@@ -74,7 +74,12 @@ ol{
     color: var(--main-text-color);
 }
 
-li{
+ul > li{
+    font-size: 125%;
+    color: var(--main-text-color);
+}
+
+ol li{
     font-size: 125%;
     color: var(--main-text-color);
 }
@@ -111,10 +116,14 @@ nav{
     align-items: flex-start;
 }
 
-#sections{
+ul.sections{
     display:flex;
     flex-direction: column;
     row-gap: 20px;
+}
+
+h2 ~ details{
+    color: var(--main-text-color);
 }
 
 #split-diagram{
@@ -150,7 +159,7 @@ nav{
     align-items: center;
 }
 
-#names{
+ul[id="names"]{
     display: grid;
     justify-items: left;
     grid-template-columns: auto auto auto auto;
@@ -186,6 +195,19 @@ nav{
     border-radius: 20px;
 }
 
+h3:has(+ p){
+    font-style: italic;
+    &:hover{
+        font-style: normal;
+    }
+}
+
+h3 + p{
+    background-color: rgb(169, 140, 109);
+    font-style: italic;
+    padding: 0.5em;
+}
+
 #Comments-Questions-Concerns{
     padding: 10vh;
     margin-top: 5vh;
@@ -203,7 +225,7 @@ nav{
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px){
     :root{
         --main-border-color: rgb(98, 59, 27);
     }
